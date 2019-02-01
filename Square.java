@@ -9,6 +9,6 @@ public class Square extends Shape {
 	}
 	
 	public void display() {
-		Display displayer = new Display(2,order,x_location,y_location); //in the class display,
+		Display displayer = new Display(this,order,x_location,y_location); //in the class display,
 	}										// The first parameter 2
 }											//represents a square 

@@ -10,7 +10,7 @@ public class Circle extends Shape {
 	}
 	
 	public void display() {
-		Display displayer = new Display(1,order,x_location,y_location); 
+		Display displayer = new Display(this,order,x_location,y_location); 
 											//in the class display,
 	}										// The first parameter 1
 }											//represents a circle 
